@@ -1,0 +1,31 @@
+{
+  "name": "workshop_todo_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon --ignore src/*.json src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zineeddine998/workshop_todo_application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zineeddine998/workshop_todo_application/issues"
+  },
+  "homepage": "https://github.com/Zineeddine998/workshop_todo_application#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "lowdb": "^3.0.0",
+    "nanoid": "^3.1.31"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
